@@ -1,0 +1,30 @@
+{
+  "name": "navigation-bar-test",
+  "title": "Navigation Bar",
+  "version": "1.0.0",
+  "description": "An Apple style navigation bar",
+  "homepage": "https://github.com/zhangke000/Navigation-Bar-Test",
+  "author": {
+    "name": "Ke Zhang",
+    "email": "kzhang@exacttarget.com",
+    "url": "https://github.com/zhangke000/Navigation-Bar-Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangke000/Navigation-Bar-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangke000/Navigation-Bar-Test/issues"
+  },
+  "licenses": [],
+  "engines": {
+    "node": ">= 0.10.29"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "awesome"
+  ],
+  "private": true
+}

@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         less: {
             dist: {
                 options: {
-                    strictMath: true,
+                    //strictMath: true,
                     sourceMap: true,
                     outputSourceFiles: true,
                     sourceMapURL: '<%= pkg.name %>.css.map',

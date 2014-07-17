@@ -22,7 +22,15 @@
   },
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-banner": "^0.2.3",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-compress": "^0.10.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.6.0"
+  },
   "keywords": [
     "awesome"
   ],

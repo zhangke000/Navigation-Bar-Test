@@ -1,0 +1,80 @@
+/*!
+ * Nav Bar v1.0.0 
+ * Copyright 2014 Ke Zhang
+ */
+
+.shadow {
+  box-shadow: 0 1px 2px 0 #808080;
+}
+.divider {
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+  border-color: transparent #6f6f6f transparent #b3b3b3;
+}
+.gradient {
+  background: -moz-linear-gradient(top, #a5a5a5 0%, #979797 50%, #7f7f7f 51%, #959595 100%);
+}
+.hovereffect {
+  background: -moz-linear-gradient(top, #7f7f7f 0%, #6e6e6e 50%, #5e5e5e 51%, #7b7b7b 100%);
+}
+.textcolor {
+  color: #3c3c3c;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+body {
+  background: #a6a6a6;
+  font-family: 'Asap', sans-serif;
+  font-size: 11pt;
+}
+nav {
+  margin: 50px auto 0;
+  width: 788px;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid #7b7b7b;
+  box-shadow: 0 1px 2px 0 #808080;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  width: 156px;
+  height: 45px;
+  text-align: center;
+  line-height: 300%;
+  color: #3c3c3c;
+  text-shadow: 1px 1px 0px #ffffff;
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+  border-color: transparent #6f6f6f transparent #b3b3b3;
+  background: -moz-linear-gradient(top, #a5a5a5 0%, #979797 50%, #7f7f7f 51%, #959595 100%);
+}
+nav ul li a:hover {
+  background: -moz-linear-gradient(top, #7f7f7f 0%, #6e6e6e 50%, #5e5e5e 51%, #7b7b7b 100%);
+}
+nav ul li:first-child a {
+  border-left: none;
+}
+nav ul li:last-child a {
+  border-right: none;
+}
+.control-item-one,
+.control-item-two {
+  margin: 200px auto;
+  height: 100px;
+  width: 100px;
+}
+.control-item-one {
+  background: red;
+}
+.control-item-two {
+  background: blue;
+}
+/*# sourceMappingURL=navigation-bar-test.css.map */
